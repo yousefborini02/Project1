@@ -169,6 +169,30 @@ i{
       justify-content: space-around;
     }
   }
+
+  /* Extra small screens (phones, 575.98px and below) */
+@media (max-width: 575.98px) {
+    .navbar-nav-scroll {
+      --bs-scroll-height: unset; /* Reset scroll height */
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-link {
+      margin: 10px 0;
+    }
+  
+    .myskillsContainer {
+      width: 90vw; /* Adjust width */
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .myprojectscontainer {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
   
 
 
