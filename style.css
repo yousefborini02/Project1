@@ -1,0 +1,122 @@
+
+.main{
+    background-color: rgb(52,53,58);
+}
+
+.about{
+    margin: 50px;
+}
+.description{
+    font-size: medium;
+    color: white;
+}
+.description::before{
+    content: "\2014 \2014";
+    margin-right: 5px;
+    color:rgb(240,191,108) ;
+}
+.aboutText{
+    color: rgb(240,191,108);
+    font-family: 'Times New Roman', Times, serif;
+}
+.myskillHead{
+    text-align: center;
+}
+.myskillText{
+    color: rgb(240,191,108);
+    font-family:'Times New Roman', Times, serif;
+}
+
+.myskillsContainer{
+    /* margin: 30px; */
+    width: 70vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    row-gap: 20px;
+    column-gap: 20px;
+    /* flex-grow: 1; */
+
+}
+img{
+    width: 30px;
+    height: 30px;
+}
+.myskillsContainer div{
+    background-color: rgb(61,62,66);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid rgb(61,62,66) ;
+    border-radius: 5px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.myskillsContainer div:hover{
+    background-color: rgb(240,191,108);
+}
+h2.contact {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 3px solid rgb(240,191,108); 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ } 
+ 
+ h2 span.contactspan { 
+     background:rgb(52,53,58); 
+     color: white;
+     padding:0 10px;
+     font-family: 'Times New Roman', Times, serif; 
+ }
+ .flexcont{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contactContainer{
+   background-color:  rgb(61,62,66);
+
+}
+.email{
+    border: 1px solid rgb(52,53,58);
+    text-align:left;
+    border-radius: 5px;
+    margin: 10px;
+    width: 150px;
+    height: 25px;
+    background-color:rgb(52,53,58) ;
+    /* flex-grow: 1; */
+}
+.emailtext{
+    color: rgb(240,191,108);
+    font-family: 'Times New Roman', Times, serif;
+}
+i{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.email a{
+    text-decoration: none;
+}
+.myprojectsHead{
+    text-align: center;
+}
+.myprojectsText{
+    color: rgb(240,191,108);
+    font-family: 'Times New Roman', Times, serif;
+}
+.myprojectscontainer{
+    display:flex;
+    justify-content: space-around;
+
+}
+
+
+
+
+
+
