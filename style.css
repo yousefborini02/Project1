@@ -120,3 +120,59 @@ i{
 
 
 
+
+
+
+/* Small screens (phones, 576px and up) */
+@media (min-width: 576px) {
+    .navbar-nav-scroll {
+      --bs-scroll-height: unset; /* Reset scroll height */
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-link {
+      margin: 10px 0;
+    }
+  
+    .myskillsContainer {
+      width: 90vw; /* Adjust width */
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .myprojectscontainer {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  /* Medium screens (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .myskillsContainer {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  
+    .myprojectscontainer {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  
+  /* Large screens (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .myskillsContainer {
+      grid-template-columns: repeat(6, 1fr);
+    }
+  
+    .myprojectscontainer {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
+  
+
+
+
+
+
+
